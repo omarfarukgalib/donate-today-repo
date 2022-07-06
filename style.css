@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head-section {
+
+    background-image: url("images/donation5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+.child-div {
+    position: absolute;
+    height: 60vh;
+    width: 60vw;
+    top: 50%;
+    left: 20%;
+}
+
+.heading-1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.para-1 {
+    text-align: center;
+    color: white;
+
+
+}
+
+.anchor-1 {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.anchor-1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: tomato;
+    font-size: 25px;
+}
