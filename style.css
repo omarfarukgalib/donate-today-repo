@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Crete Round', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .head-section {
@@ -111,6 +113,7 @@
 input {
     width: 250px;
     height: 40px;
+    text-align: center;
 }
 
 .input-number {
@@ -187,6 +190,8 @@ input {
 
 }
 
+
+
 .footer-head-1 {
     color: tomato;
     font-size: 30px;
@@ -197,11 +202,55 @@ input {
     color: white;
     font-size: 30px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .footer-child {
     background-color: black;
-    padding: 50px;
+    padding: 20px;
     width: 1000px;
-    margin-left: 170px;
+    margin-left: 190px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.added-pic {
+    background-image: url("istockphoto-1404857479-1024x1024.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1600px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.pre-head-1 {
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.pre-para-1 {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.btn-contribute {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-contri-parent {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.pre-footer-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
