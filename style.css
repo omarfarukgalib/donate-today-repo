@@ -24,7 +24,7 @@
     left: 20%;
 }
 
-.heading-1 {
+.heading-head {
     text-align: center;
     color: white;
     font-size: 30px;
@@ -41,7 +41,7 @@
 
 .anchor-1 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
 
 }
 
@@ -53,4 +53,57 @@
     border-radius: 10px;
     background-color: tomato;
     font-size: 25px;
+}
+
+.heading-mid {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+    margin-top: 30px;
+}
+
+.para-mid {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.main-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main-card-child {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+
+}
+
+.main-card-second {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
 }
