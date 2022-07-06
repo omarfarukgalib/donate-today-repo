@@ -107,3 +107,28 @@
     margin: 5px;
 
 }
+
+input {
+    width: 250px;
+    height: 40px;
+}
+
+.input-number {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.anchor-1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 40px;
+    border-radius: 5px;
+    background-color: tomato;
+    font-size: 25px;
+}
+
+.anchor-1 {
+    margin-top: 15px;
+}
